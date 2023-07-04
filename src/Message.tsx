@@ -4,7 +4,7 @@ function Message(props: any) {
     if (isLoading)
         return <h1>Loading...</h1>
     if (name)
-        return <h1>Hello {name}</h1>
+        return <h1>hello {name}</h1>
     return <h1>Hello World</h1>
 }
 export default Message;
